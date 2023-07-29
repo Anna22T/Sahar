@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #080808;
+  --white: #fefefe;
+  --gray: #565656;
+  --teal: #006060;
+  --violetred: #a2106d;
+  --orange: #ffa500;
+}
+
+body {
+  margin: 0px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.2em;
+  color: var(--violetred);
+  background-color: var(--black);
+}
+
+h1 {
+  text-align: center;
+  color: var(--violetred);
+}
+
+form {
+  width: 400px;
+}
+figure {
+  margin: 1%;
+}
+/* Code for exercise 01-navbar */
+.navbar {
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: var(--black);
+  color: var(--violetred);
+}
+.links {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  /* align-items: flex-end; */
+  gap: 0.2em;
+  font-size: 1.2em;
+}
+li {
+  list-style: none;
+}
+
+li > a {
+  padding: 0.2%;
+  text-decoration: none;
+  color: var(--white);
+}
+a:hover {
+  /* padding: 0em; */
+  background-color: var(--violetred);
+}
+.intro {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.parent {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  text-align: center;
+}
+.card {
+  flex: 1;
+  border-color: var(--gray);
+  border-width: 1px;
+  border-style: solid;
+  margin: 1em;
+  padding: 0.3em 1em 1em 1em;
+  /* padding-left: 1em; */
+  /* padding: 1em, */
+  /* padding-bottom: 1em; */
+  /* justify-content: center; */
+  /* align-content: center; */
+}
+.ex2-p {
+  text-align: left;
+  /* padding-left: 1em; */
+  /* padding-right: 1em; */
+}
+
+.ex2-button {
+  width: 100%;
+  background: var(--black);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: var(--white);
+  font-size: 20px;
+}
+.ex2-button:hover {
+  background-color: var(--violetred);
+}
+
+.headings {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #080808;
+  color: var(--violetred);
+}
